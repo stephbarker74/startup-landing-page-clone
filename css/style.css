@@ -1,5 +1,9 @@
 html {
   box-sizing: border-box;
+      margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -23,6 +27,9 @@ div {
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation> .content {
@@ -115,6 +122,32 @@ button {
     font-size: 1.125rem;
     cursor:pointer;
 }
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
 
-
+.cases h2 {
+	font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    text-align: center;
+}
+.cases .icons > li {
+    width: 33.3333333%;
+    float: left;
+ }
+.icons {
+	display: flex;
+	text-align: center;
+}
+.section {
+	display: block;
+	font-size: 0;
+}
 
