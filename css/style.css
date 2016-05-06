@@ -127,6 +127,12 @@ button {
     overflow: hidden;
     padding-bottom: 5rem;
 }
+.cases .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
 
 .cases h2 {
 	font-size: 2.75rem;
@@ -137,6 +143,15 @@ button {
     vertical-align: baseline;
     box-sizing: border-box;
     text-align: center;
+}    
+.cases .icons h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10;
+    word-break: keep-all;
 }
 .cases .icons > li {
     width: 33.3333333%;
@@ -146,8 +161,95 @@ button {
 	display: flex;
 	text-align: center;
 }
+ ul {
+    list-style: none;
+}
 .section {
 	display: block;
 	font-size: 0;
 }
-
+footer {
+	display: block;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+h5 {   
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    display: block;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+    padding: 
+}
+hr {
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.social .smicons > li {
+	align:center;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-facebook:before {
+    content: "\f09a";
+}
+.fa-instagram:before {
+    content: "\f16d";
+}
+.social .smicons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
