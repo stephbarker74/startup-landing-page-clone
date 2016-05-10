@@ -31,11 +31,6 @@ body {
     background-color: LightGray;
     -webkit-font-smoothing: antialiased;
 }
-div {
-    border: 1px solid Chocolate;
-}
-
-
 
 
 /*Navigation Section*/
@@ -92,11 +87,7 @@ div {
     height: 45.938rem;
     overflow: auto;
 }
-@media (min-width: 48rem) {
-	.content {
-	    width: 46rem;
-	}
-}
+
 
 .content {
     padding: 0 0.938rem;
@@ -280,4 +271,13 @@ hr {
     font-size: 0.9rem;
     font-weight: 300;
     color: #838994;
+}
+@media (max-width: 50rem) {
+    .content {
+        width: 46rem;
+        margin: 0 5%;   
+    }
+    .top-navigation .links {
+        padding-right: 8rem;
+    }
 }
